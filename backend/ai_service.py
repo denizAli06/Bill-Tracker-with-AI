@@ -30,7 +30,9 @@ async def get_ai_recommendation(utility_data: dict, household_info: dict):
         f"Elektrik: {utility_data['electricity']} TL\n"
         f"Su: {utility_data['water']} TL\n"
         f"Doğalgaz: {utility_data['gas']} TL\n\n"
-        f"3-5 madde halinde kısa öneriler ver."
+        f"LÜTFEN SADECE 3 veya 5 madde halinde kısa, doğrudan öneriler ver. "
+        f"Giriş cümlesi, kapanış cümlesi, tablo veya başlık (#) KESİNLİKLE KULLANMA. "
+        f"Sadece doğrudan '- ' ile başlayan maddeleri yaz."
     )
 
     headers = {
