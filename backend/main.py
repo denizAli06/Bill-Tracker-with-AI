@@ -12,7 +12,8 @@ app = FastAPI(title="EcoTrack AI API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://bill-tracker-with-ai.onrender.com",
+        "https://bill-tracker-with-ai-1.onrender.com",
+        "https://bill-tracker-ai-backend.onrender.com",
         "http://localhost:5173",
         "http://localhost:3000",
     ],
