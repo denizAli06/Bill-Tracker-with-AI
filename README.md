@@ -47,6 +47,3 @@ EcoTrack AI Dashboard is a comprehensive web application designed to track house
    npm install
    npm run dev
    ```
-
-## License
-MIT
